@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | The Signature Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Kalam:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="overflow-x-hidden bg-white text-slate-900 selection:bg-sky-500 selection:text-slate-900">
+
+    <!-- Navbar -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-3 md:py-4 px-6 transition-all duration-300">
+        <div
+            class="max-w-7xl mx-auto flex items-center justify-between bg-white/80 backdrop-blur-md rounded-2xl border border-slate-100 shadow-sm px-4 md:px-8 h-[80px] transition-all duration-300">
+            <div class="flex items-center">
+                <a href="index.html" class="h-[60px] w-auto flex items-center justify-center">
+                    <img src="image/1233.png" class="h-full w-auto object-contain" alt="Signature Studio Logo">
+                </a>
+            </div>
+
+            <div class="hidden lg:flex items-center space-x-8">
+                <a href="index.html#home" class="nav-link font-medium text-sm uppercase tracking-wider">Home</a>
+                <a href="index.html#pricing" class="nav-link font-medium text-sm uppercase tracking-wider">Pricing</a>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <button
+                    onclick="window.location.href='https://superprofile.bio/vp/craft-your-perfect-digital-signature'"
+                    class="hidden md:block blue-gradient text-white px-6 md:px-7 py-2.5 md:py-3 rounded-xl font-bold text-xs md:text-sm shadow-lg shadow-sky-500/20 btn-premium btn-glow btn-shimmer uppercase tracking-widest">
+                    Get Started
+                </button>
+                <button id="mobileMenuBtn" class="lg:hidden p-2 text-slate-900 hover:text-sky-500 transition-colors">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu"
+            class="fixed inset-0 z-50 bg-white translate-x-full transition-transform duration-500 lg:hidden">
+            <div class="flex flex-col h-full p-6">
+                <div class="flex items-center justify-between mb-12">
+                    <div class="h-16 w-auto ml-2">
+                        <img src="image/1233.png" class="h-full w-auto" alt="Logo">
+                    </div>
+                    <button id="closeMenuBtn" class="p-2 text-slate-900 hover:text-sky-500 transition-colors">
+                        <i data-lucide="x" class="w-8 h-8"></i>
+                    </button>
+                </div>
+
+                <div class="flex flex-col space-y-6">
+                    <a href="index.html#home" class="mobile-nav-link text-2xl font-bold text-slate-900">Home</a>
+                    <a href="index.html#pricing" class="mobile-nav-link text-2xl font-bold text-slate-900">Pricing</a>
+                </div>
+
+                <div class="mt-auto pt-10 border-t border-slate-100">
+                    <button
+                        onclick="window.location.href='https://superprofile.bio/vp/craft-your-perfect-digital-signature'"
+                        class="w-full blue-gradient text-white py-4 rounded-2xl font-bold text-lg shadow-xl shadow-sky-500/20 btn-premium btn-glow">
+                        Get Started Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <section class="relative pt-32 md:pt-40 pb-16 md:pb-24 px-6 overflow-hidden bg-white min-h-screen">
+        <div class="absolute -top-20 -right-20 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-20 -left-20 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="text-center mb-16 reveal">
+                <h1 class="text-4xl md:text-6xl font-black text-slate-900 mb-6">Privacy <span
+                        class="blue-gradient bg-clip-text text-transparent">Policy</span></h1>
+                <p class="text-lg text-slate-500 font-medium">Clear and transparent policy for our design service.</p>
+            </div>
+
+            <div class="space-y-12 text-slate-700 reveal">
+                <!-- Section 1 -->
+                <div class="blue-glass p-8 md:p-10 rounded-[2.5rem] border border-slate-100 box-premium shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span
+                            class="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center text-slate-900 text-lg">1</span>
+                        Information We Collect
+                    </h2>
+                    <p class="mb-4">When you place an order or contact us, we may collect the following information:</p>
+                    <ul class="space-y-2 list-disc pl-5">
+                        <li>Full name</li>
+                        <li>Email address</li>
+                        <li>Phone number</li>
+                        <li>Billing details</li>
+                        <li>Order details (name for signature, style preferences, etc.)</li>
+                        <li>Payment information (processed securely via third-party providers)</li>
+                    </ul>
+                    <p class="mt-4 font-bold text-sky-400 italic">We do not store your card or UPI details.</p>
+                </div>
+
+                <!-- Section 2 -->
+                <div class="blue-glass p-8 md:p-10 rounded-[2.5rem] border border-slate-100 box-premium shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span
+                            class="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center text-slate-900 text-lg">2</span>
+                        How We Use Your Information
+                    </h2>
+                    <ul class="space-y-2 list-disc pl-5">
+                        <li>Process and deliver your signature design</li>
+                        <li>Communicate regarding your order</li>
+                        <li>Provide customer support</li>
+                        <li>Improve our services</li>
+                        <li>Send important updates related to your purchase</li>
+                    </ul>
+                    <p class="mt-4 font-bold text-sky-400">We do not sell, rent, or trade your personal information to
+                        third parties.</p>
+                </div>
+
+                <!-- Section 3 -->
+                <div class="blue-glass p-8 md:p-10 rounded-[2.5rem] border border-slate-100 box-premium shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span
+                            class="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center text-slate-900 text-lg">3</span>
+                        Payment Security
+                    </h2>
+                    <p class="leading-relaxed">
+                        All payments are processed through secure third-party payment gateways. We do not directly store
+                        or access your payment card details.
+                    </p>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="blue-glass p-8 md:p-10 rounded-[2.5rem] border border-slate-100 box-premium shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span
+                            class="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center text-slate-900 text-lg">4</span>
+                        Data Protection
+                    </h2>
+                    <p class="leading-relaxed">
+                        We take reasonable security measures to protect your personal information from unauthorized
+                        access, misuse, or disclosure.
+                    </p>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="blue-glass p-8 md:p-10 rounded-[2.5rem] border border-slate-100 box-premium shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span
+                            class="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center text-slate-900 text-lg">5</span>
+                        Cookies
+                    </h2>
+                    <p class="leading-relaxed mb-4">
+                        Our website may use cookies to improve user experience, analyze traffic, and enhance website
+                        functionality.
+                    </p>
+                    <p class="italic text-slate-500">You can disable cookies in your browser settings.</p>
+                </div>
+
+                <!-- Section 6 -->
+                <div class="blue-glass p-8 md:p-10 rounded-[2.5rem] border border-slate-100 box-premium shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span
+                            class="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center text-slate-900 text-lg">6</span>
+                        Third-Party Services
+                    </h2>
+                    <p class="mb-4">We may use third-party tools such as:</p>
+                    <ul class="space-y-2 list-disc pl-5">
+                        <li>Payment gateways</li>
+                        <li>Analytics tools</li>
+                        <li>Advertising platforms</li>
+                    </ul>
+                    <p class="mt-4 italic text-slate-500">These third parties have their own privacy policies.</p>
+                </div>
+
+                <!-- Section 7 -->
+                <div class="blue-glass p-8 md:p-10 rounded-[2.5rem] border border-slate-100 box-premium shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span
+                            class="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center text-slate-900 text-lg">7</span>
+                        Data Retention
+                    </h2>
+                    <p class="leading-relaxed">
+                        We retain customer information only as long as necessary to fulfill orders and comply with legal
+                        obligations.
+                    </p>
+                </div>
+
+                <!-- Section 8 -->
+                <div class="blue-glass p-8 md:p-10 rounded-[2.5rem] border border-slate-100 box-premium shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span
+                            class="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center text-slate-900 text-lg">8</span>
+                        Your Rights
+                    </h2>
+                    <p class="mb-4">You may request to:</p>
+                    <ul class="space-y-2 list-disc pl-5">
+                        <li>Access your personal data</li>
+                        <li>Correct inaccurate information</li>
+                        <li>Request deletion of your data</li>
+                    </ul>
+                    <p class="mt-4">To make a request, contact us using the details below.</p>
+                </div>
+
+                <!-- Section 9 -->
+                <div class="blue-glass p-8 md:p-10 rounded-[2.5rem] border border-slate-100 box-premium shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span
+                            class="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center text-slate-900 text-lg">9</span>
+                        Changes to This Policy
+                    </h2>
+                    <p class="leading-relaxed">
+                        We reserve the right to update this Privacy Policy at any time. Updates will be posted on this
+                        page.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <div
+                            class="flex items-center justify-center gap-4 bg-sky-500/5 px-6 py-3 rounded-2xl border border-sky-500/10 shadow-sm transition-all duration-300 hover:border-sky-500/30">
+                            <div
+                                class="w-10 h-10 bg-sky-500/10 rounded-xl flex items-center justify-center text-sky-500 shadow-sm">
+                                <i data-lucide="mail" class="w-5 h-5"></i>
+                            </div>
+                            <div class="flex flex-col items-start leading-tight">
+                                <span class="text-[10px] uppercase tracking-widest font-black text-sky-500 mb-0.5">Email
+                                    Support</span>
+                                <span class="text-[13px] text-slate-900 font-bold"><a href="mailto:officialhemantv@gmail.com" class="hover:text-sky-500 transition-colors">officialhemantv@gmail.com</a></span>
+                            </div>
+                        </div>
+                        <a href="https://wa.link/ybfrhx"
+                            class="flex items-center justify-center gap-3 bg-green-500/10 text-green-500 px-6 py-3 rounded-xl font-bold hover:bg-green-500/20 transition-all border border-green-500/20">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i>
+                            WhatsApp Support
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-20 reveal">
+                <a href="index.html"
+                    class="inline-flex items-center gap-3 text-slate-400 hover:text-sky-400 transition-colors font-bold uppercase tracking-widest">
+                    <i data-lucide="arrow-left" class="w-5 h-5"></i>
+                    Back to Home
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-12 pb-32 md:pb-48 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col items-center text-center">
+            <div class="flex flex-wrap justify-center gap-6 md:gap-10 mb-8">
+                <a href="terms.html" class="text-slate-900 font-bold hover:text-sky-400 transition-colors">Terms &
+                    Conditions</a>
+                <a href="privacy-policy.html"
+                    class="text-slate-900 font-bold hover:text-sky-400 transition-colors">Privacy Policy</a>
+                <a href="refund-policy.html"
+                    class="text-slate-900 font-bold hover:text-sky-400 transition-colors">Refund Policy</a>
+            </div>
+            <div class="flex flex-col items-center gap-4">
+                <span class="text-slate-400 font-medium">© 2026 Signifyaa. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <div id="backToTop" class="back-to-top">
+        <i data-lucide="arrow-up" class="w-6 h-6"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
